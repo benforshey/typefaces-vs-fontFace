@@ -5,6 +5,9 @@ import Helmet from 'react-helmet'
 
 import './fonts.css'
 
+require('typeface-russo-one')
+require('typeface-source-sans-pro')
+
 const Header = () => (
   <div
     style={{
