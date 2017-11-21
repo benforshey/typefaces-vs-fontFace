@@ -3,10 +3,8 @@ import PropTypes from 'prop-types'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 
-import './fonts.css'
-
-require('typeface-russo-one')
-require('typeface-source-sans-pro')
+import 'typeface-russo-one'
+import 'typeface-source-sans-pro'
 
 const Header = () => (
   <div
